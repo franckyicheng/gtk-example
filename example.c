@@ -14,6 +14,7 @@ int main(int argc, char *argv[]) {
       G_CALLBACK(gtk_main_quit), NULL);  
 
   gtk_main();
+  printf("bla,just a change\n");
 
   return 0;
 }
